@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descargas</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="descargas.css" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+
+</head>
+<body>
+
+    <main>
+        <header>
+            <div class="logo">
+                <a href="#"><img src="Imagenes/Logos/logo.png" alt="" id="img"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="quienesomos.html">Quiénes Somos</a></li>
+                    <li><a href="#">Productos</a>
+                        <ul class="submenu">
+                            <li><a href="lux58.html">Sistema LUX58</a></li>
+                            <li><a href="lux90.html">Sistema LUX90</a></li>
+                            <li><a href="solid90.html">Sistema SOLID90</a></li>
+                            <li><a href="complementos.html">Complementos</a></li>
+                            <li><a href="perfileria.html">Perfileria</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="descargas.html">Descargas</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </main>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container2">
+        <h2>Catálogo LUX58</h2>
+        <input type="password" id="passwordlux58" placeholder="Contraseña">
+        <button onclick="lux58()">Descargar PDF</button>
+
+        <h2>Video LUX58</h2>
+        <input type="password" id="passwordvlux58" placeholder="Contraseña">
+        <button onclick="vlux58()">Descargar PDF</button>
+    </div>
+
+    <div class="container3">
+        <h2>Catálogo LUX90</h2>
+        <input type="password" id="passwordlux90" placeholder="Contraseña">
+        <button onclick="lux90()">Descargar PDF</button>
+
+        <h2>Video LUX90</h2>
+        <input type="password" id="passwordvlux90" placeholder="Contraseña">
+        <button onclick="vlux90()">Descargar PDF</button>
+    </div>
+
+    <div class="container4">
+        <h2>Catálogo SOLID90</h2>
+        <input type="password" id="passwordsolid90" placeholder="Contraseña">
+        <button onclick="solid90()">Descargar PDF</button>
+
+        <h2>Video SOLID90</h2>
+        <input type="password" id="passwordvsolid90" placeholder="Contraseña">
+        <button onclick="vsolid90()">Descargar PDF</button>
+    </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer class="footer">
+    <div class="container1">
+        <div class="footer-row">
+            <div class="footer-links">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="Inicio.html">Inicio</a></li>
+                    <li><a href="quienesomos.html">Quiénes Somos</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Productos</h4>
+                <ul>
+                    <li><a href="lux58.html">Sistema LUX58</a></li>
+                    <li><a href="lux90.html">Sistema LUX90</a></li>
+                    <li><a href="solid90.html">Sistema SOLID90</a></li>
+                    <li><a href="complementos.html">Complementos</a></li>
+                    <li><a href="perfileria.html">Perfilería</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Contacta con nosotros</h4>
+                <ul>
+                    <li><a href="https://www.google.es/maps/search/Calle+Abeto,+no15,+Borox/@40.0795233,-3.753788,17z/data=!3m1!4b1?entry=ttu">C/ Abeto nº15 45222 Borox - Toledo</a></li>
+                    <li><a href="#">(+34) 925 52 83 39</a></li>
+                    <li><a href="#">(+34) 629 63 68 41</a></li>
+                    <li><a href="#" class="correo">info@inoperfil.com</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <br><br>
+                <div class="social-links"><center>
+                 <img src="Imagenes/Logos/logo2.png" id="img2">
+                 <br>
+                 <small><b>Inoperfil.com © 2024 | Carpintería y Arquitectura de Interiores</b></small></center>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function lux58(){
+        var password =
+        document.getElementById("passwordlux58").value;
+        if(password === "1NSMHm39"){
+            window.open("PDF/Descargas/lux58.pdf", "_blank");
+        }else{
+            alert("Contraseña incorrecta. Inténtalo de nuevo.")
+        }
+    }
+    function lux90(){
+        var password =
+        document.getElementById("passwordlux90").value;
+        if(password === "CtGNi7$3"){
+            window.open("PDF/Descargas/lux90.pdf", "_blank");
+        }else{
+            alert("Contraseña incorrecta. Inténtalo de nuevo.")
+        }
+    }
+    function solid90(){
+        var password =
+        document.getElementById("passwordsolid90").value;
+        if(password === "3ECi#Rs!"){
+            window.open("PDF/Descargas/solid90.pdf", "_blank");
+        }else{
+            alert("Contraseña incorrecta. Inténtalo de nuevo.")
+        }
+    }
+    function vlux58(){
+        var password =
+        document.getElementById("passwordvlux58").value;
+        if(password === "1NSMHm39"){
+            window.open("Videos/Descargas/vlux58.mp4", "_blank");
+        }else{
+            alert("Contraseña incorrecta. Inténtalo de nuevo.")
+        }
+    }
+    function vlux90(){
+        var password =
+        document.getElementById("passwordvlux90").value;
+        if(password === "CtGNi7$3"){
+            window.open("Videos/Descargas/vlux90.mp4", "_blank");
+        }else{
+            alert("Contraseña incorrecta. Inténtalo de nuevo.")
+        }
+    }
+    function vsolid90(){
+        var password =
+        document.getElementById("passwordvsolid90").value;
+        if(password === "3ECi#Rs!"){
+            window.open("Videos/Descargas/vsolid90.mp4", "_blank");
+        }else{
+            alert("Contraseña incorrecta. Inténtalo de nuevo.")
+        }
+    }
+</script>
+
+
+</body>
+</html>
